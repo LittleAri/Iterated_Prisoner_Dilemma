@@ -184,7 +184,7 @@ to eat-grass
    if decision-made = "defect" and ([decision-made] of turtle partner) = "coop"
    [set personal-score personal-score + 4]
    if decision-made = "defect" and ([decision-made] of turtle partner) = "defect"
-   [set personal-score personal-score + 3]
+   [set personal-score personal-score + 2]
     ]
    ;;The above distributes points based on the payoff matrix for the Prisoner's Dilemma game.
    [
